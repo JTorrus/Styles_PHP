@@ -1,6 +1,3 @@
-<?php
-?>
-
 <!doctype html>
 <html lang="es">
 <head>
@@ -12,8 +9,16 @@
     <title>Editor</title>
 </head>
 <body>
+    <?php include './Editor_lib.inc'?>
+
+    <h1>Testing del h1</h1>
+
     <form action="Guarda_canvis.php" method="post">
-        <label for="textstyle"></label><textarea name="text_estils" id="textstyle" cols="30" rows="10"></textarea>
+        <label for="textstyle"></label><textarea name="text_estils" id="textstyle" cols="30" rows="10">
+            <?php
+
+            ?>
+        </textarea>
         <br>
         <input type="submit">
     </form>

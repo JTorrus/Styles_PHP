@@ -16,7 +16,7 @@
     <form action="Guarda_canvis.php" method="post">
         <label for="textstyle"></label><textarea name="text_estils" id="textstyle" cols="30" rows="10">
             <?php
-
+                
             ?>
         </textarea>
         <br>

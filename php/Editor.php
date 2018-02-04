@@ -9,14 +9,14 @@
     <title>Editor</title>
 </head>
 <body>
-    <?php include './Editor_lib.inc'?>
-
     <h1>Testing del h1</h1>
 
     <form action="Guarda_canvis.php" method="post">
-        <label for="textstyle"></label><textarea name="text_estils" id="textstyle" cols="30" rows="10">
+        <textarea name="text_estils" cols="30" rows="10">
             <?php
-                
+                include 'Editor_lib.inc';
+
+                showContent();
             ?>
         </textarea>
         <br>

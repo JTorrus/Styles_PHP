@@ -16,7 +16,8 @@
             <?php
                 include 'Editor_lib.inc';
 
-                showContent();
+                $param = "../css/Estil.css";
+                showContent($param);
             ?>
         </textarea>
         <br>

@@ -1,6 +1,7 @@
 <?php
     include 'Editor_lib.inc';
+    $param = "../css/Estil.css";
 
-    writeContent($_POST["text_estils"]);
+    writeContent($param, $_POST["text_estils"]);
     header('Location: Editor.php');
 ?>

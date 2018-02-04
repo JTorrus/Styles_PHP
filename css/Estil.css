@@ -1,8 +1,8 @@
-                                                                                                                                                            h1 {
-    color: blue;
+h1 {
+    color: red;
     text-align: right;
     border: 1px;
     border-style: solid;
     padding: 10px;
     font-family: Arial;
-}                                                                                                        
+}
